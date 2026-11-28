@@ -1,0 +1,39 @@
+# Version control & DVC
+.git/
+.gitignore
+.dvc/
+.dvcignore
+
+# CI/CD & orchestration
+.github/
+k8s/
+
+# Python caches & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Tests & docs
+tests/
+*.md
+Dockerfile
+.dockerignore
+
+# Raw data, tracking DBs & predictions
+data/
+mlruns/
+mlartifacts/
+mlflow.db
+predictions/
+
+# OS files
+.DS_Store
+Thumbs.db
